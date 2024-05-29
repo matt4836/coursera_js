@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive Counter</title>
+</head>
+<body>
+  <h1>Interactive Counter</h1>
+  <h2>Account Holder Name: <span id="user_name">Peter Parker</span></h2>
+  <p>Followers: <span id="countDisplay">0</span></p>
+  <hr>
+  <h2>Click one button to follow</h2>
+  <button onclick="increaseCount()">Increment</button>
+  <button onclick="resetCount()">Reset</button>
+  <label for="counterValue">Change counter value:</label>
+  <input type="number" id="counterValue">
+  <button onclick="setCounterValue()">Change</button>
+  <br>
+  <label for="newName">Change name:</label>
+  <input type="string" id="newName">
+  <button onclick="setName()">Change</button>
+  <script src="./func1.js"></script>
+</body>
+</html>
